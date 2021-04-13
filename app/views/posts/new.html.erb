@@ -1,0 +1,23 @@
+<h1>New Post</h1>
+<hr>
+<%= form_with model: @post do |form| %>
+<%= form.label :title %>
+<%= form.text_field :title, placeholder: "Enter your title"%>
+<br>
+<%= form.label :body %>
+<%= form.text_area :body, placeholder: "Write your article here" %>
+<br>
+<hr>
+<%= form.submit %>
+<% end %>
+
+<hr>
+<div class='footer_links'>
+    <li>
+        <%= link_to "Back", :back %>
+    </li>
+    <li>
+        <%= user_sign(@user) %>
+    </li>
+</div>
+<hr>
