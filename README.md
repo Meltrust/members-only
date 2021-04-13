@@ -19,11 +19,19 @@
 
 Model generated:
 
-- user
+- User
  - Create
  - Edit
  - Delete
- - List
+ - HAS_MANY: Posts
+ - Add Posts
+ - Edit Posts
+- Authentication
+ - Login
+  - View Posts Author info
+ - Logout
+  - Cannot View Posts Author info
+
 
 ### Requirements
 - 1. Ruby (~v2.6.3 or more recent) installed in your machine.
@@ -61,6 +69,7 @@ rails console
 > We have added some default content in each Model.
 
 - User.all
+- Post.all
 
 ## Authors
 
