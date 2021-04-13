@@ -81,9 +81,9 @@ rails console
 
 🧑‍💻 **Miguel**
 
-- GitHub: [@smy5152](https://github.com/smy5152)
-- Twitter: [@smy5152](https://twitter.com/smy5152)
-- LinkedIn: [Shabbir Yamani](https://www.linkedin.com/in/shabbirmyamani/)
+- GitHub: [@smy5152](https://github.com/meltrust)
+- Twitter: [@smy5152](https://twitter.com/meltrustDVX)
+- LinkedIn: [Shabbir Yamani](https://www.linkedin.com/in/meltrust/)
 
 ## 🤝 Contributing
 
