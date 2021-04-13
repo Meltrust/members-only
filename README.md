@@ -4,10 +4,10 @@
 
 > The project builds on the previously learnt concepts of Devise Gem & Rails DB properties like belongs_to and has_many. Authentication and anonymous posts & privacy for anonymous posts vs known authors posts for authenticated in user.
 
-![List](AllUsers.png)
-![Edit](Edit.png)
-![CRUD](Show_manage.png)
-![Schema](Schema.png)
+![DESIGN](app-design-features.png)
+![Signup](Signup.png)
+![Posts-Logged In](Posts-signedin.png)
+![Posts-Logged Out](Posts-signedOut.png)
 
 ## Built With
 
