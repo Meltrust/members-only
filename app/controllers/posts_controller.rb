@@ -5,13 +5,9 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  def show; end
-
   def new
     @post = Post.new
   end
-
-  def edit; end
 
   def create
     @post = current_user.posts.build(post_params)
@@ -22,10 +18,6 @@ class PostsController < ApplicationController
       render :new
     end
   end
-
-  def update; end
-
-  def destroy; end
 
   private
 
