@@ -1,0 +1,40 @@
+<h1>Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th><%= user_author(@user) %></th> 
+      <th><%= user_email(@user) %></th> 
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title %></td>
+        <td><%= post.body %></td>
+        <td><%= author(post) %></td> 
+        <td><%= email(post) %></td> 
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<hr> 
+<div class='footer_links'>
+<li>
+  <%= post_new(@user) %> 
+</li>
+<li>
+  <%= user_logout(@user) %>
+</li>
+<li>
+  <%= user_edit(@user) %>
+</li>
+<li>
+  <%= user_sign(@user) %> 
+</li>
+</div>
+<br>
